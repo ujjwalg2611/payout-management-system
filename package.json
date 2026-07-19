@@ -1,0 +1,15 @@
+{
+  "name": "payout-system",
+  "version": "1.0.0",
+  "description": "User Payout Management System - LLD Assignment",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "demo": "node tests/scenario.test.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-async-errors": "^3.1.1"
+  }
+}
