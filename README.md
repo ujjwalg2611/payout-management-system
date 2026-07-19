@@ -224,18 +224,3 @@ payout-system/
 └── README.md
 ```
 
----
-
-## 11. A note on the submission format
-
-The assignment asks for a public GitHub repo link. This solution was built in a sandboxed environment without outbound network/GitHub access, so the code is delivered as a ready-to-push local repository instead. To publish it:
-
-```bash
-cd payout-system
-git init
-git add .
-git commit -m "User Payout Management System - LLD assignment"
-git branch -M main
-git remote add origin <your-empty-github-repo-url>
-git push -u origin main
-```
